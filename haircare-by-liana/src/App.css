@@ -1,0 +1,94 @@
+:root {
+  background-color: rgb(177, 177, 177);
+  color: white;
+  text-align: center;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(80, 85, 85);
+  padding: 5px 15px 2px 5px;
+}
+.navbar-logo {
+  height: 80px;
+}
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links .navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.navbar-link:hover {
+  color: rgb(218, 50, 162);
+}
+/* main */
+.whole-page {
+  background-color: rgb(80, 85, 85, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(218, 50, 162);
+  border: 1px black solid;
+  padding: 10px;
+  margin: 10px;
+}
+.section:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: aliceblue;
+  color: grey;
+}
+
+.section-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-pic {
+  width: 400px;
+  border: 1px black solid;
+}
+/*Footer */
+.footer {
+  background-color: rgb(80, 85, 85);
+  padding: 0 40px 20px 40px;
+  margin-top: 0;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.footer-link:hover {
+  color: rgb(218, 50, 162);
+}
